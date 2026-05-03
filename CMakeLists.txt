@@ -12,22 +12,10 @@ endif()
 project ("VibeStdUnitTests")
 
 # Add source to this project's executable.
-add_executable (VibeStdUnitTests "VibeStdUnitTests_test.cpp")
+add_executable (VibeStdUnitTests "ranges_test.cpp")
 
-set_property(TARGET VibeStdUnitTests PROPERTY CXX_STANDARD 20)
-target_link_libraries(VibeStdUnitTests PRIVATE GTest::gtest_main)
+set_property(TARGET VibeStdUnitTests PROPERTY CXX_STANDARD 23)
+
+find_package(GTest REQUIRED)
+target_link_libraries(VibeStdUnitTests PRIVATE GTest::gtest GTest::gtest_main)
 include(GoogleTest)
-
-# --- GoogleTest ---
-include(FetchContent)
-FetchContent_Declare(
-  googletest
-  GIT_REPOSITORY https://github.com/google/googletest.git
-  GIT_TAG        v1.14.0
-)
-# For MSVC: keep runtime library consistent with the parent project
-set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
-FetchContent_MakeAvailable(googletest)
-
-gtest_discover_tests(VibeStdUnitTests)
-enable_testing()
