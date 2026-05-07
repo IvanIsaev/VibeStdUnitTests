@@ -12,3 +12,4 @@ endif()
 project ("VibeStdUnitTests")
 
 add_subdirectory(std_vibe_unit_tests)
+add_subdirectory(usage_examples)
