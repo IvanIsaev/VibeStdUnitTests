@@ -12,7 +12,7 @@ endif()
 project ("VibeStdUnitTests")
 
 # Add source to this project's executable.
-add_executable (VibeStdUnitTests "ranges_test.cpp" "algorithms_test.cpp" "cstdlib_test.cpp" "execution_test.cpp" "cfloat_test.cpp" "climits_test.cpp" "compare_test.cpp" "contracts_test.cpp")
+add_executable (VibeStdUnitTests "ranges_test.cpp" "algorithms_test.cpp" "cstdlib_test.cpp" "execution_test.cpp" "cfloat_test.cpp" "climits_test.cpp" "compare_test.cpp" "contracts_test.cpp" "coroutine_test.cpp")
 
 set_property(TARGET VibeStdUnitTests PROPERTY CXX_STANDARD 23)
 target_compile_options(VibeStdUnitTests PRIVATE /std:c++latest)
