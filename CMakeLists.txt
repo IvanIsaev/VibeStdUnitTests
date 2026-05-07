@@ -15,6 +15,7 @@ project ("VibeStdUnitTests")
 add_executable (VibeStdUnitTests "ranges_test.cpp" "algorithms_test.cpp" "cstdlib_test.cpp" "execution_test.cpp" "cfloat_test.cpp" "climits_test.cpp" "compare_test.cpp")
 
 set_property(TARGET VibeStdUnitTests PROPERTY CXX_STANDARD 23)
+target_compile_options(VibeStdUnitTests PRIVATE /std:c++latest)
 
 find_package(GTest REQUIRED)
 target_link_libraries(VibeStdUnitTests PRIVATE GTest::gtest GTest::gtest_main)
