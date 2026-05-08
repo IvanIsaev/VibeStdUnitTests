@@ -1,4 +1,5 @@
 add_executable(std_vibe_unit_tests
+  "${CMAKE_CURRENT_SOURCE_DIR}/csetjmp_test.cpp"
   "${CMAKE_CURRENT_SOURCE_DIR}/ranges_test.cpp"
   "${CMAKE_CURRENT_SOURCE_DIR}/algorithms_test.cpp"
   "${CMAKE_CURRENT_SOURCE_DIR}/cstdlib_test.cpp"
