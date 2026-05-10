@@ -7,6 +7,13 @@ add_executable(usage_examples
   "${CMAKE_CURRENT_SOURCE_DIR}/patterns/behavioral/Singleton_test.cpp"
   "${CMAKE_CURRENT_SOURCE_DIR}/patterns/behavioral/Object_Pool_test.cpp"
   "${CMAKE_CURRENT_SOURCE_DIR}/patterns/behavioral/Prototype_test.cpp"
+  "${CMAKE_CURRENT_SOURCE_DIR}/patterns/structural/PIMPL_test.cpp"
+  "${CMAKE_CURRENT_SOURCE_DIR}/patterns/structural/CRTP_test.cpp"
+  "${CMAKE_CURRENT_SOURCE_DIR}/patterns/structural/Adapter_test.cpp"
+  "${CMAKE_CURRENT_SOURCE_DIR}/patterns/structural/Decorator_test.cpp"
+  "${CMAKE_CURRENT_SOURCE_DIR}/patterns/structural/Facade_test.cpp"
+  "${CMAKE_CURRENT_SOURCE_DIR}/patterns/structural/Proxy_test.cpp"
+  "${CMAKE_CURRENT_SOURCE_DIR}/patterns/structural/Bridge_test.cpp"
 )
 
 set_property(TARGET usage_examples PROPERTY CXX_STANDARD 23)
