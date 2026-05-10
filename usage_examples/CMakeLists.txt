@@ -1,5 +1,12 @@
 add_executable(usage_examples
   "${CMAKE_CURRENT_SOURCE_DIR}/coroutines/coroutine_examples.cpp"
+  "${CMAKE_CURRENT_SOURCE_DIR}/patterns/behavioral/RAII_test.cpp"
+  "${CMAKE_CURRENT_SOURCE_DIR}/patterns/behavioral/Factory_Method_test.cpp"
+  "${CMAKE_CURRENT_SOURCE_DIR}/patterns/behavioral/Abstract_Factory_test.cpp"
+  "${CMAKE_CURRENT_SOURCE_DIR}/patterns/behavioral/Builder_test.cpp"
+  "${CMAKE_CURRENT_SOURCE_DIR}/patterns/behavioral/Singleton_test.cpp"
+  "${CMAKE_CURRENT_SOURCE_DIR}/patterns/behavioral/Object_Pool_test.cpp"
+  "${CMAKE_CURRENT_SOURCE_DIR}/patterns/behavioral/Prototype_test.cpp"
 )
 
 set_property(TARGET usage_examples PROPERTY CXX_STANDARD 23)
