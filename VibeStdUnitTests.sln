@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.7.11811.120
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VibeStdUnitTests", "VibeStdUnitTests.vcxproj", "{B46D3A20-F995-49B7-BE89-1ADD6CCC96B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B46D3A20-F995-49B7-BE89-1ADD6CCC96B2}.Debug|x64.ActiveCfg = Debug|x64
+		{B46D3A20-F995-49B7-BE89-1ADD6CCC96B2}.Debug|x64.Build.0 = Debug|x64
+		{B46D3A20-F995-49B7-BE89-1ADD6CCC96B2}.Debug|x86.ActiveCfg = Debug|Win32
+		{B46D3A20-F995-49B7-BE89-1ADD6CCC96B2}.Debug|x86.Build.0 = Debug|Win32
+		{B46D3A20-F995-49B7-BE89-1ADD6CCC96B2}.Release|x64.ActiveCfg = Release|x64
+		{B46D3A20-F995-49B7-BE89-1ADD6CCC96B2}.Release|x64.Build.0 = Release|x64
+		{B46D3A20-F995-49B7-BE89-1ADD6CCC96B2}.Release|x86.ActiveCfg = Release|Win32
+		{B46D3A20-F995-49B7-BE89-1ADD6CCC96B2}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C80AFB5C-4CC3-4386-934B-E4D0B1BA2B4C}
+	EndGlobalSection
+EndGlobal

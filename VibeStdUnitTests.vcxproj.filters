@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\std_vibe_unit_tests">
+      <UniqueIdentifier>{81663920-85f1-4b1c-809d-050ef177db07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\usage_examples">
+      <UniqueIdentifier>{e9c3a59d-9c64-4276-ae06-d2d1170b9331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\usage_examples\patterns">
+      <UniqueIdentifier>{1d3560bf-5700-44fe-84ec-5074c2b90e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\usage_examples\coroutines">
+      <UniqueIdentifier>{3d93d81d-e5ef-4420-abc2-deabbc564a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\usage_examples\patterns\behavioral">
+      <UniqueIdentifier>{a1ea2ab6-e5f8-4ce1-9005-90b3c0b4847b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\usage_examples\patterns\concurrency">
+      <UniqueIdentifier>{9cc60a6d-a30f-4bd9-9eb8-9f5ff159e1a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\usage_examples\patterns\creational">
+      <UniqueIdentifier>{05a6cf7e-d09e-4d27-8ac1-3bb4ded189ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\usage_examples\patterns\structural">
+      <UniqueIdentifier>{f08c119c-ce90-4faf-a73c-b01f181805cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="std_vibe_unit_tests\algorithms_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\any_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\array_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\atomic_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\barrier_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\bit_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\bitset_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cassert_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cctype_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cerrno_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cfenv_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cfloat_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\charconv_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\chrono_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cinttypes_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\climits_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\clocale_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cmath_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\codecvt_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\compare_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\complex_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\concepts_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\condition_variable_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\contracts_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\coroutine_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\csetjmp_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\csignal_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cstdarg_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cstddef_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cstdint_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cstdio_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cstdlib_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cstring_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\ctime_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cuchar_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cwchar_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\cwctype_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\debugging_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\deque_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\exception_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\execution_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\expected_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\filesystem_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\flat_map_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\flat_set_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\format_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\forward_list_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\fstream_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\functional_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\future_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\generator_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\hazard_pointer_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\hive_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\initializer_list_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\inplace_vector_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\iomanip_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\ios_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\iosfwd_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\iostream_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\istream_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\iterator_header_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\latch_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\limits_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\linalg_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\list_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\locale_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\map_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\mdspan_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\memory_resource_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\memory_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\meta_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\mutex_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\new_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\numbers_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\numeric_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\optional_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\ostream_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\print_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\queue_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\random_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\ranges_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\ratio_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\rcu_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\regex_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\scoped_allocator_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\semaphore_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\set_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\shared_mutex_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\simd_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\source_location_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\span_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\spanstream_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\sstream_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\stack_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\stacktrace_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\stdexcept_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\stdfloat_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\stop_token_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\streambuf_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\string_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\string_view_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\strstream_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\syncstream_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\system_error_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\text_encoding_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\thread_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\tuple_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\type_traits_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\typeindex_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\typeinfo_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\unordered_map_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\unordered_set_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\utility_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\valarray_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\variant_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\vector_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="std_vibe_unit_tests\version_test.cpp">
+      <Filter>Source Files\std_vibe_unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\coroutines\coroutine_examples.cpp">
+      <Filter>Source Files\usage_examples\coroutines</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\Abstract_Factory_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\Builder_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\Chain_of_Responsibility_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\Command_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\Factory_Method_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\Iterator_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\Mediator_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\Memento_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\Object_Pool_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\Observer_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\Prototype_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\RAII_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\Singleton_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\State_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\Strategy_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\Template_Method_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\behavioral\Visitor_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\concurrency\Active_Object_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\concurrency\Double-Checked_Locking_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\concurrency\Futures_Promises_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\concurrency\Monitor_Object_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\concurrency\Producer-Consumer_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\concurrency\Readers-Writer_Lock_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\concurrency\Thread_Pool_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\concurrency\Thread-Safe_Copy-on-Write_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\structural\Adapter_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\structural</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\structural\Bridge_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\structural</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\structural\CRTP_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\structural</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\structural\Decorator_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\structural</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\structural\Facade_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\structural</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\structural\PIMPL_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\structural</Filter>
+    </ClCompile>
+    <ClCompile Include="usage_examples\patterns\structural\Proxy_test.cpp">
+      <Filter>Source Files\usage_examples\patterns\structural</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

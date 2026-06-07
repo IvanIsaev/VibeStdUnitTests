@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="std_vibe_unit_tests\algorithms_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\any_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\array_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\atomic_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\barrier_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\bitset_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\bit_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cassert_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cctype_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cerrno_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cfenv_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cfloat_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\charconv_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\chrono_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cinttypes_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\climits_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\clocale_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cmath_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\codecvt_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\compare_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\complex_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\concepts_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\condition_variable_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\contracts_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\coroutine_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\csetjmp_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\csignal_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cstdarg_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cstddef_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cstdint_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cstdio_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cstdlib_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cstring_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\ctime_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cuchar_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cwchar_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\cwctype_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\debugging_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\deque_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\exception_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\execution_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\expected_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\filesystem_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\flat_map_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\flat_set_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\format_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\forward_list_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\fstream_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\functional_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\future_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\generator_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\hazard_pointer_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\hive_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\initializer_list_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\inplace_vector_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\iomanip_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\iosfwd_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\iostream_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\ios_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\istream_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\iterator_header_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\latch_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\limits_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\linalg_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\list_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\locale_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\map_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\mdspan_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\memory_resource_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\memory_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\meta_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\mutex_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\new_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\numbers_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\numeric_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\optional_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\ostream_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\print_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\queue_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\random_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\ranges_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\ratio_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\rcu_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\regex_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\scoped_allocator_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\semaphore_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\set_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\shared_mutex_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\simd_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\source_location_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\spanstream_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\span_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\sstream_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\stacktrace_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\stack_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\stdexcept_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\stdfloat_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\stop_token_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\streambuf_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\string_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\string_view_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\strstream_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\syncstream_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\system_error_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\text_encoding_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\thread_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\tuple_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\typeindex_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\typeinfo_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\type_traits_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\unordered_map_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\unordered_set_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\utility_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\valarray_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\variant_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\vector_test.cpp" />
+    <ClCompile Include="std_vibe_unit_tests\version_test.cpp" />
+    <ClCompile Include="usage_examples\coroutines\coroutine_examples.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\Abstract_Factory_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\Builder_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\Chain_of_Responsibility_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\Command_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\Factory_Method_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\Iterator_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\Mediator_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\Memento_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\Object_Pool_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\Observer_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\Prototype_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\RAII_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\Singleton_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\State_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\Strategy_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\Template_Method_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\behavioral\Visitor_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\concurrency\Active_Object_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\concurrency\Double-Checked_Locking_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\concurrency\Futures_Promises_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\concurrency\Monitor_Object_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\concurrency\Producer-Consumer_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\concurrency\Readers-Writer_Lock_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\concurrency\Thread-Safe_Copy-on-Write_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\concurrency\Thread_Pool_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\structural\Adapter_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\structural\Bridge_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\structural\CRTP_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\structural\Decorator_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\structural\Facade_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\structural\PIMPL_test.cpp" />
+    <ClCompile Include="usage_examples\patterns\structural\Proxy_test.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{b46d3a20-f995-49b7-be89-1add6ccc96b2}</ProjectGuid>
+    <RootNamespace>VibeStdUnitTests</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_SILENCE_ALL_CXX23_DEPRECATION_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\repo\my_projects\VibeStdUnitTests\external\googletest-distribution\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\repo\my_projects\VibeStdUnitTests\external\googletest-distribution\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gmock_main.lib;gtest_main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

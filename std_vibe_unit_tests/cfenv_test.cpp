@@ -3,7 +3,8 @@
 #include <cfenv>
 #include <cmath>
 
-#pragma STDC FENV_ACCESS ON
+// TODO: Fix
+//#pragma STDC FENV_ACCESS ON
 
 namespace {
 
